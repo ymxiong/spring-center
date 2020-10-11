@@ -74,6 +74,10 @@
             <id>releases</id>
             <name>releases</name>
             <url>http://central.horsecoder.com:8081/repository/maven-releases/</url>
+            <releases>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </releases>
         </repository>
     </repositories>
 
